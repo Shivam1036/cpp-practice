@@ -3,9 +3,9 @@ using namespace std;
 
 void reverse(int arr[],int size){
     int i=0;
-    int end=size;
+    int end=size-1;
     while(i<end){ 
-        swap(arr[i],arr[end-1]);
+        swap(arr[i],arr[end]);
         i++;
         end--;
     }
